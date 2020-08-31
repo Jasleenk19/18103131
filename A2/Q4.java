@@ -1,13 +1,14 @@
 public class Q4{
     public static void main(String[] args){
-        int n=1;
-        int sumUptoN = 1;
-        while(n<Math.sqrt(Integer.MAX_VALUE)){
+        long n=1;
+        long sumUptoN = 1;
+        while(n<Integer.MAX_VALUE){
             if(sumUptoN==n*n){
-                System.out.println("Ans: "+n);
+                System.out.println("Answer: "+n);
             }
             n=n+1;
             sumUptoN=sumUptoN+n;
         }
+        System.out.println("Last value of n is "+n+ " and Sum upto n is "+sumUptoN);
     }
 }
