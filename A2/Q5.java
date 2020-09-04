@@ -1,5 +1,5 @@
 import java.util.*;
-public class Ques5_ass2{
+public class Q5{
     public static void main(String[] args){
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter maximum limit for universe starting from 0: ");
