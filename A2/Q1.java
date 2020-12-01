@@ -38,7 +38,7 @@ public class Q1
             System.out.println("Smaller string is: " +s2);
             System.out.println("Larger string is: " +s1);
         }
-        else if(answer>0)
+        else if(answer<0)
         {
             System.out.println("Smaller string is: " +s1);
             System.out.println("Larger string is: " +s2);
