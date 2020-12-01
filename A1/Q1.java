@@ -24,7 +24,6 @@ public class Q1{
         		sub = new String(s);
         		if(sub.equals(sub_string)){
         			answer++;
-        			i+=len2-1;
         		}
         	}
         	System.out.println("Number of times the substring exists in the main string is "+answer);
